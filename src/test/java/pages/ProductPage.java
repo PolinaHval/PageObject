@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 public class ProductPage extends BasePage {
     private static String ENDPOINT ="/inventory.html";
 
-
     private static By PRODUCT_SELECTOR = By.xpath("//div[text()=\"Sauce Labs Backpack\"]");
     private static By BUTTON_Add_to_Cart = By.className("btn_primary btn_inventory");
 

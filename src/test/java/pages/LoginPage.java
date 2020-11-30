@@ -33,11 +33,6 @@ public class LoginPage extends BasePage {
         getUserName().sendKeys(username);
     }
 
-    public String getUserNameValue(){
-       return getUserName().getText();
-    }
-
-
      private WebElement getPassword(){
         return driver.findElement(PASSWORD_SELECTOR);
     }
